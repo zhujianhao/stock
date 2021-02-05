@@ -110,7 +110,7 @@ public class HttpClientUtils {
                 }
             }
 
-//            url = URLEncoder.encode(url,"utf-8");
+            url = URLEncoder.encode(url,"utf-8");
 
             /*  httpGet.setHeader("User-Agent", userAgent);*/
             response = httpclient.execute(httpGet);
